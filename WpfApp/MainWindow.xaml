@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Szyfr Cezara" Height="450" Width="800">
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="86,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="609" RenderTransformOrigin="0.498,0.536" x:Name="wej"/>
+        <Label Content="Wejście:" HorizontalAlignment="Left" Margin="358,28,0,0" VerticalAlignment="Top" Height="28" Width="53" RenderTransformOrigin="0.547,0.536"/>
+        <Label Content="Przesunięcie (Podaj cyfrę)" HorizontalAlignment="Left" Margin="319,89,0,0" VerticalAlignment="Top"/>
+        <Button Content="Szyfruj" HorizontalAlignment="Left" Margin="214,161,0,0" VerticalAlignment="Top" Width="119" Click="Button_S" Height="28"/>
+        <Button Content="Rozszyfruj" HorizontalAlignment="Left" Margin="431,161,0,0" VerticalAlignment="Top" Width="119" Click="Button_R" Height="28"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="330,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="shift"/>
+        <TextBox HorizontalAlignment="Left" Height="193" Margin="10,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="772" x:Name="wyj"/>
+
     </Grid>
 </Window>
